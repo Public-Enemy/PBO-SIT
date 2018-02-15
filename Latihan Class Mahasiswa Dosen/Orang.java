@@ -1,42 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package latihanprequiz;
 
-/**
- *
- * @author secondary
- */
 public class Orang {
-private String nama;
-    private String alamat;
-    private String kota;
-    private int umur;
-    private char jenis_kelamin;
+private String nama; // deklrasi atribute nama
+    private String alamat; // deklrasi atribute alamat
+    private String kota; // deklarasi atribute kota
+    private int umur; // // deklrasi atribute umut
+    private char jenis_kelamin; // deklrasi atribute jenis kelamin
 
-    void setnama(String nama) {
-        this.nama = nama;
+    void setnama(String nama) { // prosedur untuk inisialisasi nilai pada atribut nama
+        this.nama = nama; // inisialisasi nilai
     }
-    void setalamat(String alamat) {
-        this.alamat = alamat;
+    void setalamat(String alamat) { // prosedur untuk inisialisasi nilai pada atribut alamat
+        this.alamat = alamat; // inisialisasi nilai
     }
-    void setkota(String kota) {
-        this.kota = kota;
+    void setkota(String kota) { // prosedur untuk inisialisasi nilai pada atribut kota
+        this.kota = kota; // inisialisasi nilai
     }
-    void setumur(int umur) {
-        this.umur = umur;
+    void setumur(int umur) { // prosedur untuk inisialisasi nilai pada atribut umur 
+        this.umur = umur;  // inisialisasi nilai
     }
-    void setjenis_kelamin(char jenis_kelamin) {
-        this.jenis_kelamin = jenis_kelamin;
+    void setjenis_kelamin(char jenis_kelamin) { // prosedur untuk inisialisasi nilai pada atribut jenis kelamin
+        this.jenis_kelamin = jenis_kelamin; // inisialisasi nilai
     }
     
-    public String getNama(){return this.nama;};
-    public String getAlamat(){return this.alamat;};
-    public int getUmur(){return this.umur;};
-    public String getKota(){return this.kota;};
-    public char getjenis_kelamin(){return this.jenis_kelamin;};
+    public String getNama(){return this.nama;}; // fungsi mengambil nilai attribute nama mengunakan return keyword this
+    public String getAlamat(){return this.alamat;};  // fungsi mengambil nilai attribute alamat mengunakan return keyword this
+    public int getUmur(){return this.umur;};  // fungsi mengambil nilai attribute umur mengunakan return keyword this
+    public String getKota(){return this.kota;};  // fungsi mengambil nilai attribute kota mengunakan return keyword this
+    public char getjenis_kelamin(){return this.jenis_kelamin;};  // fungsi mengambil nilai jenis_kelamin nama mengunakan return keyword this
     public String toString(){
     System.out.println("Nama\t:" + this.getNama() +"\nAlamat\t:"+ this.getAlamat() +"\nKota\t:"+this.getKota() +"\nUmur\t:"+ this.getUmur());
     return "";
