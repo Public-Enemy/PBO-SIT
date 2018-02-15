@@ -1,6 +1,6 @@
 package latihanprequiz;
 
-public class Driver {
+public class Driver { // main initialisasi eksekusi dari package latihanprequiz
     public static void main(String[] args) {
         Dosen dosen = new Dosen("Ahmad Luky Ramdani", "jl.ra.Basyid", "Bandar Lampung", 28,'L',"PBO","S2", 30000000); // konstrusktor objeck dengan parameter kelas konstruktor dosen
         System.out.println(dosen.toString()); // mencetak string hasi dari method toString dari class Dosen
