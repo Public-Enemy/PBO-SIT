@@ -20,3 +20,7 @@ Modul # : https://www.dropbox.com/s/hcwhoikjs961nhe/Modul%203.pdf?dl=0
     - Berisi implementasi enkapsulasi , pewarisan (inheritance) , methode overloading
     - Hasil implementasi ini merujuk pada hasil transkrip nilai mahasiswa
     
+- Implementasi Pewarisan pada Tim Idol ( Modul 3 )
+    - Berisi implementasi pewarisan kelas pada turunanya
+    - Serta Objek dalam array
+    
